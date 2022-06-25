@@ -6,7 +6,7 @@
   "descriptionmsg": "kbbireferences-desc",
   "version": "1.0.0",
   "url": "https://github.com/aziyan99/kbbireferences",
-  "license-name": "GPL-2.0-or-later",
+  "license-name": "GPL-3.0 license",
   "type": "parserhook",
   "MessagesDirs": {
   "KBBIReferences": [
