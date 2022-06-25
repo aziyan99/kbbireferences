@@ -1,0 +1,26 @@
+{
+  "name": "KBBIReferences",
+  "author": [
+    "Raja Azian"
+  ],
+  "descriptionmsg": "kbbireferences-desc",
+  "version": "1.0.0",
+  "url": "https://github.com/aziyan99/kbbireferences",
+  "license-name": "GPL-2.0-or-later",
+  "type": "parserhook",
+  "MessagesDirs": {
+  "KBBIReferences": [
+    "i18n"
+  ]
+},
+  "AutoloadClasses": {
+    "KBBIReferencesHooks": "src/KBBIReferencesHooks.php"
+  },
+  "ExtensionMessagesFiles": {
+    "KBBIReferencesMagic": "KBBIReferences.i18n.php"
+  },
+  "Hooks": {
+    "ParserFirstCallInit": "KBBIReferencesHooks::onParserFirstCallInit"
+  },
+  "manifest_version": 1
+}
